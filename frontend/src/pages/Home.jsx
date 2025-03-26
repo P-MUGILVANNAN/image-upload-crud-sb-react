@@ -68,7 +68,7 @@ function Home() {
                            width="50" height="50" 
                            className="img-thumbnail" />
                     </td>
-                    <td>{product.name}</td>
+                    <td><Link to={`/showProduct/${product.id}`}>{product.name}</Link></td>
                     <td>{product.mrp}</td>
                     <td>{product.price}</td>
                     <td>
